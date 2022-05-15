@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Prospectos" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/verdePrimary</item>
+        <item name="colorPrimaryVariant">@color/verdePrimaryVariant</item>
+        <item name="colorOnPrimary">@color/verdeOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/rosaOnSecondary</item>
+        <item name="colorSecondaryVariant">@color/rosaSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/rosaSecondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

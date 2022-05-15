@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="EVALUAR PROSPECTO"
+            android:textColor="@color/rosaSecondary"
+            android:textSize="20sp"  />
+
+        <Button
+            android:id="@+id/btnCerrarEvalView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_rojo"
+            android:text="X"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerEvaluarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/txtObservacionesView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="textMultiLine"
+        android:maxLength="500"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnEvaluarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_verde"
+        android:text="Evaluar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

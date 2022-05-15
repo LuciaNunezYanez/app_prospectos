@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="@string/nav_registro"
+            android:icon="@drawable/ic_home"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/nav_prospectos"
+            android:title="@string/nav_prospectos"
+            android:icon="@drawable/ic_persons"
+            />
+        <item
+            android:id="@+id/nav_evaluacion"
+            android:title="@string/nav_evaluacion"
+            android:icon="@drawable/ic_eval"
+            />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/cerrar">
+        <item
+            android:id="@+id/nav_cerrar"
+            android:title="Cerrar sesión"
+            android:icon="@drawable/ic_back"/>
+    </group>
+</menu>

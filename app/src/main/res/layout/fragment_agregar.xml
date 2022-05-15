@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.AgregarFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="DATOS PERSONALES"
+            android:textColor="@color/rosaSecondary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtNombreAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Nombre(s)"
+            android:inputType="textPersonName"
+            android:maxLength="45"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/txtApellidoPaternoAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Primer apellido"
+            android:inputType="textPersonName"
+            android:maxLength="45"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/txtApellidoMaternoAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Segundo apellido"
+            android:inputType="textPersonName"
+            android:maxLength="45"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="DOMICILIO"
+            android:textColor="@color/rosaSecondary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtCalleAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Calle"
+            android:inputType="textPersonName"
+            android:maxLength="45"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/txtNumeroAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Número"
+            android:inputType="textPersonName"
+            android:maxLength="45"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/txtColoniaAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Colonia"
+            android:inputType="textPersonName"
+            android:maxLength="45"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+
+        <EditText
+            android:id="@+id/txtCPAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Código postal"
+            android:inputType="number"
+            android:maxLength="5"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/txtTelefonoAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/txtRFCAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="RFC"
+            android:inputType="textPersonName"
+            android:maxLength="13"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="DOCUMENTOS"
+                android:textColor="@color/rosaSecondary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnAddDocument"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_azul"
+                android:text="+"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rojo"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="Cancelar"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_verde"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="Registrar"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
